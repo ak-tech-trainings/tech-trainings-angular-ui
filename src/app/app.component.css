@@ -1,0 +1,20 @@
+.main-nav-class{
+    font-size: 2rem;
+    background: gray;
+    padding:0.7rem;
+}
+
+.main-nav-class ul{
+    display: flex;
+    list-style-type: none;
+    margin-left: 1rem;
+}
+
+.main-nav-class li{
+    padding-right: 2rem;
+}
+
+.main-nav-class a{
+    text-decoration: none;
+    color: white;
+}
