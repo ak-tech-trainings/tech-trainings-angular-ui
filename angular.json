@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "tech-trainings-angular-ui"
+    }
+  },
+  "defaultProject": "tech-trainings-angular-ui",
+  "cli": {
+    "analytics": false
+  }
 }
