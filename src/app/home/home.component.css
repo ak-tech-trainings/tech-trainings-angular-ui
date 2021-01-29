@@ -1,0 +1,31 @@
+.bgImg {
+  background-image: url("../../assets/home_page_bg_img.jpg");
+  background-size: cover;
+  top: 12vh;
+  height: 88vh;
+}
+
+h1 {
+  position: absolute;
+  font-size: 1.8rem;
+  top: 30rem;
+  left: 10rem;
+  color: white;
+  text-shadow: 2px 2px black;
+}
+
+@media only screen and (max-width: 360px) {
+  .bgImg {
+    background-image: url("../../assets/mobile_340x640.jpg");
+    background-size: cover;
+    filter: blur(3.5px);
+    height: 75vh;
+  }
+
+  h1 {
+    color: white;
+    font-weight: 300;
+    font-size: 1.5rem;
+    margin-left: 5rem;
+  }
+}

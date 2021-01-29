@@ -9,10 +9,11 @@ import {RegistrationComponent} from './registration/registration.component'
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 const routes: Routes = [
+  {path:'', pathMatch:'full', component:HomeComponent},
   {path:'home', component:HomeComponent},
-  {path:'about-us', component: AboutUsComponent},
+  {path:'about', component: AboutUsComponent},
   {path:'courses', component: CoursesComponent},
-  {path:'contact-us', component: ContactUsComponent},
+  {path:'contact', component: ContactUsComponent},
   //remaining components 
 
 
@@ -20,7 +21,7 @@ const routes: Routes = [
   {path:'register', component: RegistrationComponent},
 
   //page not found
-  {path:'page-not-found', component: PageNotFoundComponent}
+  {path:'**', component: PageNotFoundComponent}
 ];
 
 @NgModule({
